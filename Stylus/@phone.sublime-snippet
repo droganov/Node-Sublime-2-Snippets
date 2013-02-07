@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+// Phone
+@media (max-width: 767px)
+	$0
+]]></content>
+	<tabTrigger>phone</tabTrigger>
+	<scope>source.stylus</scope>
+</snippet>
