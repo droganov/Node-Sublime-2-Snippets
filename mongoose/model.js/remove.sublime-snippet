@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+remove (err, item) ->
+	return req.next err if err
+	]]></content>
+	<tabTrigger>remove</tabTrigger>
+	<scope>source.coffee</scope>
+</snippet>
