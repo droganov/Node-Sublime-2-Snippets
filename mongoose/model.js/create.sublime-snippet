@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+create ${1:data}, (err, ${2:result}) ->
+	return ${3:req.next} err if err
+	$0
+]]></content>
+	<tabTrigger>create</tabTrigger>
+	<scope>source.coffee</scope>
+</snippet>
