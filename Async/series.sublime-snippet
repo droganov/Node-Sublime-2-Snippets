@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+async.series [
+	(cb)->
+		#...
+		return cb err if err
+		cb null, "data"
+], (err, data) ->
+	return cb err if err
+	cb null, data
+]]></content>
+	<tabTrigger>async</tabTrigger>
+	<scope>source.coffee</scope>
+</snippet>
