@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-findById ${1:id}, (err, ${2:item}) ->
+findOne ${1:condition}, (err, ${2:item}) ->
 	return ${3:next} err if err
 	$0
 ]]></content>
-	<tabTrigger>findById</tabTrigger>
+	<tabTrigger>findOne</tabTrigger>
 	<scope>source.coffee</scope>
 </snippet>

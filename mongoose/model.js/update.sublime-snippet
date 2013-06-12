@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+update {${1:conditions}}, {${2:data}}${3:, {multi: true\}}, (err, numberAffected, raw) ->
+	return ${4:next} err if err
+	$0
+]]></content>
+	<tabTrigger>update</tabTrigger>
+	<scope>source.coffee</scope>
+</snippet>

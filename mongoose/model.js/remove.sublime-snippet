@@ -1,8 +1,9 @@
 <snippet>
 	<content><![CDATA[
-remove (err, item) ->
-	return req.next err if err
-	]]></content>
+remove ${1:{${2:conditions}\}, }(err, item) ->
+	return next err if err
+	$0
+]]></content>
 	<tabTrigger>remove</tabTrigger>
 	<scope>source.coffee</scope>
 </snippet>

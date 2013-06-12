@@ -1,8 +1,9 @@
 <snippet>
 	<content><![CDATA[
-save (err, item) ->
-	return req.next err if err
-	]]></content>
+save (err, ${1:item}) ->
+	return ${2:next} err if err
+	$0
+]]></content>
 	<tabTrigger>save</tabTrigger>
 	<scope>source.coffee</scope>
 </snippet>
