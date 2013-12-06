@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+case ${1:statement}
+	when ${2:"${3:value}"}
+		$0
+	${4:default}
+]]></content>
+	<tabTrigger>switch</tabTrigger>
+	<scope>source.jade</scope>
+</snippet>

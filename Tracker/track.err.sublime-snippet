@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+track.err ${1:err}, "${2:$TM_FILENAME:$TM_LINE_NUMBER}"
+]]></content>
+	<tabTrigger>track</tabTrigger>
+	<scope>source.coffee</scope>
+</snippet>
