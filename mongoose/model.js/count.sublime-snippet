@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-count {${1:criteria}}, (err, ${2:items}) ->
+count {${1:criteria}}, (err, ${2:cnt}) ->
 	return ${3:next} err if err
 	$0
 ]]></content>
